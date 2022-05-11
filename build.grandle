@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+mavenCentral()
+}
+
+mainClassName='ru.betry.App'
+
+dependencies {
+compile group: 'com.sun.mail',name:'javax.mail', version: '1.6.2'
+}
